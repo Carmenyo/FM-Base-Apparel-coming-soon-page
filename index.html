@@ -3,72 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Josefin+Sans:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/main.css" />
-
     <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
+
   <body>
-  <div class="container">
-        <div class="container__logo">
-        <img src="./images/logo.svg" alt="logo" class="container__logo--logotype" />
-</div>
-      <div class="container__hero">
-           <img src="./images/hero-desktop.jpg" alt="image-desktop" class="container__hero--desktop" />
-           <img src="./images/hero-mobile.jpg" alt="image-mobile" class="container__hero--mobile" />
-       </div>    
-
-       <div class="wrapper">
-        <div class="wrapper__desktop">
-          <img src="./images/logo.svg" alt="logo" class="wrapper__desktop--logo">
-        </div>
-        <div class="wrapper__title">
-      <span class="wrapper__title--part1">We're </span> 
-      <span class="wrapper__title--part2">Coming soon</span>
+    <main class="main__container">
+      <div class="main__container--logo">
+        <img class="logo" src="images/logo.svg" alt="site logo" />
       </div>
-      <p class="wrapper__paragraph">
-        Hello fellow shoppers! We're currently building our new fashion store.
-        Add your email below to stay up-to-date with announcements and our
-        launch deals.
-      </p>
-
-
-      <form id="form" novalidate class="form">
-        <div class="form__input">
-        <input 
-        type="email" 
-        placeholder="Email Address" class="form__input--email"/>
-        <img src="./images/icon-error.svg" alt="Error icon" class="form__input--error">
-
-        <button 
-        class="form__input--button" type="submit">
-        <img 
-        src="./images/icon-arrow.svg" 
-        alt="image arrow">
-        </button>
+      <div class="main__container--image">
+        <img class="imageMobile"src="./images/hero-mobile.jpg" alt="woman">
       </div>
-      <p class="error-text" id="danger-text">Please provide a valid email</p>
-      </form>
-    </div>
-    </div>
-    
+      <div class="main__container--title">
+        <h1 class="title1">We're</h1>
+        <span class="title2">
+          coming <br />
+          soon
+        </span>
+      </div>
+        <p class="main__container--paragraph">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals
+        </p>
+
+        <form class="main__form" id="form" action="">
+          <input 
+          class="main__form--input" 
+          type="email" 
+          placeholder="Email Address" 
+          id="email" />
+          <img 
+          src="images/icon-error.svg" 
+          alt="" 
+          class="error-icon" />
+          
+          <button class="main__form--button">
+            <img src="images/icon-arrow.svg" alt="arrow" />
+          </button>
+          <small id="small">Error</small>
+        </form>
+      
+     
+    </main>
+
     <script src="./main.js"></script>
   </body>
 </html>
