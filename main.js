@@ -1,26 +1,18 @@
-const _form = document.getElementById("form")
-const _email = document.getElementById("email")
+const form = document.getElementById("form");
+const email = document.getElementById("email");
 
-_form.addEventListener("submit", event => {
-    event.preventDefault();
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const emailVal = email.value;
+  if (!validateEmail(emailVal)) {
+    form.classList.add("error");
+  } else {
+    form.classList.remove("error");
+  }
+});
 
-    validateEmail();
-})
-
-validateEmail = () => {
-    const email_value = _email.value.trim();
-    const _small = document.getElementById("small")
-    if (email_value === '') {
-        _small.textContent = "Email cannot be empty";
-        _form.className = 'form error';
-    } else if (!isEmail(email_value)) {
-        _small.textContent = "Please enter a valid email address";
-        _form.className = 'form error';
-    } else _form.className = 'form';
-
-}
-
-isEmail = email => {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email.toLowerCase());
+function validateEmail(email) {
+  var re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
 }

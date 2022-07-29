@@ -15,46 +15,36 @@
   </head>
 
   <body>
-    <main class="main__container">
-      <div class="main__container--logo">
-        <img class="logo" src="images/logo.svg" alt="site logo" />
-      </div>
-      <div class="main__container--image">
-        <img class="imageMobile"src="./images/hero-mobile.jpg" alt="woman">
-      </div>
-      <div class="main__container--title">
-        <h1 class="title1">We're</h1>
-        <span class="title2">
-          coming <br />
-          soon
-        </span>
-      </div>
-        <p class="main__container--paragraph">
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals
-        </p>
-
-        <form class="main__form" id="form" action="">
-          <input 
-          class="main__form--input" 
-          type="email" 
-          placeholder="Email Address" 
-          id="email" />
-          <img 
-          src="images/icon-error.svg" 
-          alt="" 
-          class="error-icon" />
+    <main>
+      <div class="main__container">
+        <div class="left">     
+          <div class="left-container">
+            <img class= "logo" src="./images/logo.svg" alt="logo" />
+            <img class="image__mobile" src="./images/hero-mobile.jpg" alt="image mobile">
+            <h1 class="title"><span class="title2">We're</span> <br> coming<br> soon </h1>
+            <p class="paragraph">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+            <form id="form">
+              <input 
+              id="email" 
+              type="email" placeholder="Email Address" />
+              <img class="error-icon" src="./images/icon-error.svg" alt="error" />
+              <button>
+                <img src="./images/icon-arrow.svg" alt="arrow" />
+              </button>
+  
+              <small>Please provide a valid email</small>
+            </form>
+          </div>
           
-          <button class="main__form--button">
-            <img src="images/icon-arrow.svg" alt="arrow" />
-          </button>
-          <small id="small">Error</small>
-        </form>
-      
-     
+        </div>
+        <div class="right bg-image"></div>
+      </div>
     </main>
-
+    <!-- </div> -->
     <script src="./main.js"></script>
   </body>
 </html>
