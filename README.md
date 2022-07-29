@@ -1,15 +1,14 @@
-<img src="https://github.com/Carmenyo/FrontendMentor-Product-preview-card-component/blob/main/images/FrontendMentor-Product-preview-card-component.jpg"></img>
+<img src="https://github.com/Carmenyo/FrontendMentor-Base-Apparel-coming-soon-page/blob/main/images/Frontend%20Mentor%20_%20Base%20Apparel%20coming%20soon%20page.png"></img>
 
-<h1 align="center">Product preview card component
-</h1>
+<h1 align="center">Base Apparel coming soon page</h1>
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Carmenyo/FrontendMentor-Product-preview-card-component" color="white">
+    <a href="https://carmenyo.github.io/FrontendMentor-Base-Apparel-coming-soon-page/" color="white">
       Live
     </a>
     <span> | </span>
-    <a href="https://carmenyo.github.io/FrontendMentor-Product-preview-card-component/">
+    <a href="https://github.com/Carmenyo/FrontendMentor-Base-Apparel-coming-soon-page">
       Solution
     </a>
   </h3>
@@ -20,8 +19,8 @@
 
 ## About The Project
 
-<p>This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.
-The challenge is to build out this product preview card component and get it looking as close to the design as possible.
+<p>This a HTML, CSS and JavaScript challenge. The project will be perfect for anyone starting to build responsive projects.
+The challenge is to build out this comming soon page and get it looking as close to the design as possible.
 
 <br><br>Users should be able to: <br>
 1. View the optimal layout depending on their device's screen size.
@@ -32,11 +31,12 @@ The challenge is to build out this product preview card component and get it loo
 
 - HTML5 
 - CSS3
-- Mobile-first workflow
+- Vanilla JavaScript
+- Responsive desktop/mobile
 
 ## What I learned
 
-A very easy project to keep updated with the Frontend Mentor projects and remember the basics concepts !
+I have improve my skills in layout and I have improved my logical ability
 
 ## Acknowledgments
 
