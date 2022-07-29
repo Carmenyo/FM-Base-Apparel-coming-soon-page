@@ -17,7 +17,7 @@ body {
 }
 
 .main__container {
-  min-height: 100vh;
+  min-height: 100vw;
   display: flex;
 }
 .left {
