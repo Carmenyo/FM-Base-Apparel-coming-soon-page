@@ -1,44 +1,37 @@
-<img src="https://github.com/Carmenyo/FrontendMentor-Base-Apparel-coming-soon-page/blob/main/images/Frontend%20Mentor%20_%20Base%20Apparel%20coming%20soon%20page.png"></img>
+# Frontend Mentor - Coming Soon Page
 
-<h1 align="center">Base Apparel coming soon page</h1>
+A "Coming Soon" landing page crafted using HTML5, CSS3, and JavaScript. This project features a responsive design that works seamlessly on both desktop and mobile devices, creating anticipation for what's to come.
 
-<div align="center">
-  <h3>
-    <a href="https://carmenyo.github.io/FrontendMentor-Base-Apparel-coming-soon-page/" color="white">
-      Live
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Carmenyo/FrontendMentor-Base-Apparel-coming-soon-page">
-      Solution
-    </a>
-  </h3>
-</div>
-<br>
-<br>
-<br>
+![Coming Soon Page Preview Desktop](./design/desktop-design.jpg)
+![Coming Soon Page Preview Mobile](./design/mobile-design.jpg)
 
-## About The Project
+## Features
 
-<p>This a HTML, CSS and JavaScript challenge. The project will be perfect for anyone starting to build responsive projects.
-The challenge is to build out this comming soon page and get it looking as close to the design as possible.
+- Responsive design ensuring a consistent experience across desktop and mobile.
+- Minimalistic design to create a sense of intrigue and anticipation.
 
-<br><br>Users should be able to: <br>
-1. View the optimal layout depending on their device's screen size.
-2. See hover and focus states for interactive elements.
-<br>
+## Technologies Used 🛠️
 
-## Built with
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> HTML5: Markup language for structuring the web page.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> JavaScript: Programming language for building dynamic websites.
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> CSS3: Styling language for design and presentation.
 
-- HTML5 
-- CSS3
-- Vanilla JavaScript
-- Responsive desktop/mobile
+## Usage Instructions
 
-## What I learned
+1. Clone this repository using the command: `git clone https://github.com/yourusername/coming-soon-page.git`
+2. Open the `index.html` file in your web browser to view the "Coming Soon" page.
+3. Explore the page's minimalistic design and responsive layout on different devices.
 
-I have improve my skills in layout and I have improved my logical ability
+## Customization
 
-## Acknowledgments
+Feel free to customize and enhance the "Coming Soon" page according to your preferences:
 
-Many thanks to anyone who has contributed providing feedback on my solution. 
+- Adjust the color scheme to create a unique visual identity.
 
+## Contributions
+
+Contributions are welcome! If you have ideas for improvements or want to contribute in any way, please submit a pull request.
+
+## Author ✒️
+
+- **Carmenyo** - [Carmenyo](https://github.com/carmenyo)
