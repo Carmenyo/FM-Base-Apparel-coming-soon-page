@@ -2,8 +2,8 @@
 
 A "Coming Soon" landing page crafted using HTML5, CSS3, and JavaScript. This project features a responsive design that works seamlessly on both desktop and mobile devices, creating anticipation for what's to come.
 
-![Coming Soon Page Preview Desktop](./design/desktop-design.jpg)
-![Coming Soon Page Preview Mobile](./design/mobile-design.jpg)
+![Coming Soon Page Preview Desktop](./images/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
+
 
 ## Features
 
